@@ -1,0 +1,81 @@
+body{
+background-color: rgb(139, 190, 194);
+
+}
+.panel-heading{
+    background:linear-gradient(blue,yellow);
+        font-size: xx-large;
+        font-weight: bold;
+        padding-left: 45px;
+        padding-right: 45px;
+        width: fit-content;
+        border: solid;
+        border-radius: 45px;
+        box-shadow: 5px 10px 0px rgb(55, 134, 170);
+        margin-bottom:20px;
+}
+
+.panel-heading:hover{
+    background: linear-gradient(green,rgb(99, 163, 133));
+    cursor: pointer;
+}
+.fv{
+    padding-right: 45px;
+    padding-left: 45px;
+    font-size:large;
+    font-weight: bold;
+    border-radius: 45px;
+    border: solid blue;
+    background: linear-gradient(rgb(10, 116, 165),rgb(37, 147, 180));
+}
+.fv:hover{
+    background: linear-gradient(rgb(39, 39, 156),rgb(52, 145, 148));
+}
+.sv:hover{
+    background: linear-gradient(rgb(39, 39, 156),rgb(52, 145, 148));
+}
+.sv{
+    padding-left: 45px;
+    padding-right: 45px;
+    font-size:large;
+    font-weight: bold;
+    border-radius: 45px;
+    border: solid blue;
+    background: linear-gradient(rgb(10, 116, 165),rgb(37, 147, 180));
+}
+.output{
+    font-size:large;
+    float: right;
+    width: 30%;
+    padding-left: 10px;
+    font-weight: bold;
+    border-radius: 45px;
+    border: solid blue;
+    background: linear-gradient(rgb(107, 165, 52),green);
+}
+.output:hover{
+    background: linear-gradient(rgb(163, 163, 192),rgb(52, 145, 148));
+}
+
+.btn:hover{
+    background: linear-gradient(rgb(39, 39, 156),rgb(152, 192, 43));
+}
+.name{
+    color: rgb(21, 40, 145);
+    text-align: center;
+    border: solid rgb(37, 172, 44);
+    background: linear-gradient(blue,rgb(113, 177, 54),green);
+    font-weight: bold;
+    width: 50%;
+    margin-bottom: 45px;
+    margin-left:50px;
+}
+.name:hover{
+    background: linear-gradient(rgb(150, 150, 190),rgb(129, 136, 129),yellow);
+}
+#first:hover{
+    background: linear-gradient(rgb(235, 240, 235),rgb(223, 223, 202));
+}
+#second:hover{
+    background: linear-gradient(rgb(235, 240, 235),rgb(223, 223, 202));
+}
